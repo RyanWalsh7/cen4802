@@ -2,7 +2,11 @@
 //Date: 05/16/2022
 //Program Name: Walsh_Assignment2
 import java.util.*;
-
+/**
+ * 
+ * @author ryanc
+ *
+ */
 public class Walsh_Assignment2
 {
 	
@@ -19,7 +23,11 @@ public class Walsh_Assignment2
 
 	}
 	
-
+/**
+ * This method serves as a way to return the nth term in the Fibonacci sequence.
+ * @param fibNum an integer passed into the method to determine that terms value in the Fibonacci sequence 
+ * @return		 the terms value in the Fibonacci sequence that corresponds to the fibNum integer
+ */
     static int fibRecursionMethod(int  fibNum) 
     {
         if ((fibNum == 1) || (fibNum == 0)) 
